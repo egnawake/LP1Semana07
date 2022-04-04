@@ -16,6 +16,7 @@ namespace ColorBalls
             Ball ballTwo = new Ball(yellow, 10);
             Ball ballThree = new Ball(cyan, 20);
 
+            // do things to balls
             ballTwo.Throw();
             ballTwo.Throw();
 
@@ -25,7 +26,27 @@ namespace ColorBalls
             ballThree.Pop();
             ballThree.Throw();
 
-            Console.WriteLine(red.AsString());
+            // print balls states
+            Console.WriteLine("Ball One");
+            PrintBall(ballOne);
+            Console.WriteLine("");
+
+            Console.WriteLine("Ball Two");
+            PrintBall(ballTwo);
+            Console.WriteLine("");
+
+            Console.WriteLine("Ball Three");
+            PrintBall(ballThree);
+            Console.WriteLine("");
+        }
+
+        private static void PrintBall(Ball ball)
+        {
+            Console.WriteLine("Radius: {0}, color: {1}, times thrown: {2}",
+                ball.GetRadius(),
+                ball.GetColor().AsString(),
+                ball.GetTimesThrown()
+            );
         }
     }
 }
