@@ -12,5 +12,10 @@ namespace ColorBalls
             _radius = radius;
             _timesThrown = 0;
         }
+
+        public void Pop()
+        {
+            _radius = 0;
+        }
     }
 }
