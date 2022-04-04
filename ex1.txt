@@ -1,0 +1,18 @@
+1. As classes são tipos de referência?
+   Sim.
+
+2. Classes definem o que algo pode fazer e guardar, enquanto uma instância é um objeto específico que contém o seu próprio estado
+
+3. Três tipos de membros que podem pertencer a uma classe:
+   Variáveis, métodos, propriedades
+
+4. Se algo é static então é partilhado por todas as instâncias desse tipo específico?
+   Sim
+
+5. Os métodos especiais que inicializam uma classe chamam-se construtores.
+
+6. Algo private é acessível apenas dentro da classe em que está definido.
+
+7. Algo public é acessível de qualquer sítio/qualquer outro projeto.
+
+8. Algo internal é acessível dentro do projeto em que está definido.
