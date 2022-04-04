@@ -24,6 +24,8 @@ namespace ColorBalls
             ballThree.Throw();
             ballThree.Pop();
             ballThree.Throw();
+
+            Console.WriteLine(red.AsString());
         }
     }
 }

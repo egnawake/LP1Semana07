@@ -68,5 +68,10 @@ namespace ColorBalls
             int result = (GetRed() + GetGreen() + GetBlue()) / 3;
             return (byte) result;
         }
+
+        public string AsString()
+        {
+            return $"({GetRed()}, {GetGreen()}, {GetBlue()}, {GetAlpha()})";
+        }
     }
 }
