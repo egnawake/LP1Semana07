@@ -42,5 +42,25 @@ namespace ColorBalls
         {
             return _a;
         }
+
+        public void SetRed(byte value)
+        {
+            _r = value;
+        }
+        
+        public void SetGreen(byte value)
+        {
+            _g = value;
+        }
+        
+        public void SetBlue(byte value)
+        {
+            _b = value;
+        }
+        
+        public void SetAlpha(byte value)
+        {
+            _a = value;
+        }
     }
 }
