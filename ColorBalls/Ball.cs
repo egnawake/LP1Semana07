@@ -13,6 +13,21 @@ namespace ColorBalls
             _timesThrown = 0;
         }
 
+        public Color GetColor()
+        {
+            return _color;
+        }
+
+        public int GetRadius()
+        {
+            return _radius;
+        }
+        
+        public int GetTimesThrown()
+        {
+            return _timesThrown;
+        }
+
         public void Pop()
         {
             _radius = 0;
@@ -26,9 +41,5 @@ namespace ColorBalls
             }
         }
 
-        public int GetTimesThrown()
-        {
-            return _timesThrown;
-        }
     }
 }
