@@ -2,11 +2,11 @@
 
 namespace ColorBalls
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Color c = new Color(10, 20, 10, 255);
         }
     }
 }
