@@ -2,7 +2,7 @@ namespace ColorBalls
 {
     public class Ball
     {
-        private Color _color;
+        private readonly Color _color;
         private int _radius;
         private int _timesThrown;
 
