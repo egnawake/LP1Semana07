@@ -62,5 +62,11 @@ namespace ColorBalls
         {
             _a = value;
         }
+
+        public byte GetGrayLevel()
+        {
+            int result = (GetRed() + GetGreen() + GetBlue()) / 3;
+            return (byte) result;
+        }
     }
 }
