@@ -25,5 +25,10 @@ namespace ColorBalls
                 _timesThrown++;
             }
         }
+
+        public int GetTimesThrown()
+        {
+            return _timesThrown;
+        }
     }
 }
