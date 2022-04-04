@@ -1,0 +1,8 @@
+Classe - definição de um conjunto de estado (variáveis) e comportamento (métodos), "blueprint" para objetos
+Objeto/instância - concretização de uma classe, conjunto de variáveis de estado com valores concretos e métodos que agem sobre esse estado
+Método - função definida numa classe
+Construtor - método especial chamado no momento em que é criada uma instância de uma classe
+Variável de instância - variável declarada ao nível da classe
+Variável local - variável declarada dentro de um método ou bloco
+Overloading - declaração de métodos com o mesmo nome mas assinaturas diferentes
+Encapsulação - estado "escondido" e protegido dentro de uma classe, acessível e modificável através de métodos
