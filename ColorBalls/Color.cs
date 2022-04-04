@@ -14,5 +14,13 @@ namespace ColorBalls
             _b = b;
             _a = a;
         }
+
+        public Color(byte r, byte g, byte b)
+        {
+            _r = r;
+            _g = g;
+            _b = b;
+            _a = 255;
+        }
     }
 }
