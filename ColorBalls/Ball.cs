@@ -17,5 +17,13 @@ namespace ColorBalls
         {
             _radius = 0;
         }
+
+        public void Throw()
+        {
+            if (_radius > 0)
+            {
+                _timesThrown++;
+            }
+        }
     }
 }
